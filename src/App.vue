@@ -1,14 +1,18 @@
 <template>
   <HomePage msg="Muilenburg Contracting"/>
+  <AboutUsPage msg="about us page"/>
 </template>
 
 <script>
 import HomePage from './components/HomePage.vue';
+import AboutUsPage from './components/AboutUs.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HomePage
+    HomePage,
+    AboutUsPage,
   }
 }
 </script>
