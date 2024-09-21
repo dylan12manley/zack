@@ -1,7 +1,7 @@
 <template>
     <div class="about">
       <span>I started working in construction in 2012.</span>
-      <img src='@/assets/images/selfie.png'/>
+      <!-- <img src='@/images/selfie.png' alt='dylan-selfie'/> -->
     </div>
   </template>
   

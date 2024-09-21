@@ -1,12 +1,17 @@
 <template>
   <div class="home">
+    <nav>
+      <RouterLink to="/">Go to Home</RouterLink>
+      <RouterLink to="/about">Go to About</RouterLink>
+    </nav>
     <span>Zack Muilenburg Contracting</span>
-    <img src='@/assets/images/selfie.png' alt='dylan selfie'/>
+    <img src='../selfie.png' alt='dylan selfie'/>
     <span></span>
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'HomePage',
   props: {
